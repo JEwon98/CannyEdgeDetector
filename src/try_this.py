@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 import cv2
 import time
 
-# origin_img = Image.open('/Users/jewonrho/Documents/ComputerVision/final_project/sample.jpg')
-# origin_img = Image.open('final_project/sample2.png')
-# origin_img = Image.open('final_project/sample3.jpeg')
-origin_img = Image.open('final_project/road1.jpeg')
-# origin_img = Image.open('final_project/road2.jpeg')
+# origin_img = Image.open('src/sample.jpg')
+# origin_img = Image.open('src/sample2.png')
+# origin_img = Image.open('src/sample3.jpeg')
+origin_img = Image.open('src/road1.jpeg')
+# origin_img = Image.open('src/road2.jpeg')
 
 gray_img = ImageOps.grayscale(origin_img)
 img = np.array(gray_img)
